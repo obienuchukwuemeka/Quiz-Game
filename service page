@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Quiz Website</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <div class="logo-img">
+                <img src="IMG-20260308-WA0022.jpg">
+                            <a href="#" class="logo-name">Tech Baby Quiz.</a>
+            </div>
+
+        </div>
+        <nav class="navbar">
+            <a href="index.html" >Home</a>
+            <a href="about.html">About</a>
+            <a href="service.html">Service</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home">
+            <div class="home-content">
+                <h1>Our Services</h1>
+                <p>EVerything you need to test and grow your tech knowledge.</p>
+            </div>
+        </section>
+    </main>
+
+   <!-- Hero/Sub Header Section -->
+    <div class="services">
+        <h2 class="service-header">What We Offer</h2>
+        <div class="service-cards">
+            <div class="service">
+                <h3>Interactive QUizzes</h3>
+                <p>Test your knowledge with fun multiple choice questions.</p>
+            </div>
+            <div class="service">
+                <h3>Instant Feedback</h3>
+                <p>Know immediately if your answers is right or wrong.</p>
+            </div>
+            <div class="service">
+                <h3>Score Tracking</h3>
+                <p>See your score update in real time as you play.</p>
+            </div>
+        </div>
+                <div class="service-cards">
+            <div class="service">
+                <h3>Try Again Feature</h3>
+                <p>Retry the quiz as many times as you want.</p>
+            </div>
+            <div class="service">
+                <h3>Multiple Categories</h3>
+                <p>HTML, CSS, PHP, SQL, XML and more.</p>
+            </div>
+            <div class="service">
+                <h3>Free To Use</h3>
+                <p>Free to use.</p>
+            </div>
+        </div>
+         <div class="cta">
+                 <h1>Ready To Test Yourself?</h1>
+         </div>
+        <div class="btn-cta">
+            <a href="quiz.html" class="start-btn">Start Quiz</a>
+        </div>
+    </div>
+
+
+        <!-- About Description -->
+        <div class="about-info">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae deleniti dolor amet quisquam architecto officia hic ratione aperiam illum! Ullam, laboriosam eum?</p>
+
+            <!-- Social Icons -->
+        <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+
+    <div class="footer">
+    <p>Developed by Tech Baby</p>
+    </div>
+
+</section>
+</body>
+</html>
