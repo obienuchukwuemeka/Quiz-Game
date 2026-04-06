@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Quiz Website</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <div class="logo-img">
+                <img src="IMG-20260308-WA0022.jpg">
+                            <a href="#" class="logo-name">Tech Baby Quiz.</a>
+            </div>
+
+        </div>
+        <nav class="navbar">
+            <a href="index.html" >Home</a>
+            <a href="about.html">About</a>
+            <a href="service.html">Service</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home">
+            <div class="home-content">
+                <h1>Tech Baby Quiz</h1>
+                <p>Our mission is to help people test and grow their knowledge
+                in web technologies through fun and interactive quizzes.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- STEPS SECTION -->
+    <div class="steps">
+        <h2 class="steps-h2">How It Works</h2>
+        <div class="steps-cards">
+            <div class="step">
+                <h3>Step 1: Start the Quiz</h3>
+                <p>Click the Start Quiz button to begin testing your knowledge.</p>
+            </div>
+            <div class="step">
+                <h3>Step 2: Answer Questions</h3>
+                <p>Select the correct answer for each question.</p>
+            </div>
+            <div class="step">
+                <h3>Step 3: View Results</h3>
+                <p>After completing the quiz, view your final score.</p>
+            </div>
+        </div>
+        <div class="btn-cta">
+            <a href="quiz.html" class="start-btn">Start Quiz</a>
+        </div>
+    </div>
+
+    <!-- STATS SECTION -->
+    <div class="stats">
+        <div class="stat-item">
+            <h2>50+</h2>
+            <p>Questions</p>
+        </div>
+        <div class="stat-item">
+            <h2>5</h2>
+            <p>Categories</p>
+        </div>
+        <div class="stat-item">
+            <h2>1,000+</h2>
+            <p>Users Tested</p>
+        </div>
+        <div class="stat-item">
+            <h2>100%</h2>
+            <p>Free Forever</p>
+        </div>
+    </div>
+
+
+        <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+
+    </div>
+
+<div class="footer">
+    <p>Developed by Tech Baby</p>
+</div>    
+
+</section>
+
+</body>
+</html>
