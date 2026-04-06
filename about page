@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Quiz Website</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <div class="logo-img">
+                <img src="IMG-20260308-WA0022.jpg">
+                            <a href="#" class="logo-name">Tech Baby Quiz.</a>
+            </div>
+
+        </div>
+        <nav class="navbar">
+            <a href="index.html" >Home</a>
+            <a href="about.html">About</a>
+            <a href="service.html">Service</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home">
+            <div class="home-content">
+                <h1>About Us</h1>
+                <p>Our mission is to help people test and grow their knowledge
+                in web technologies through fun and interactive quizzes.</p>
+            </div>
+        </section>
+    </main>
+
+   <!-- Hero/Sub Header Section -->
+
+    <!-- About Section -->
+    <section class="about-us">
+        <div class="row">
+            <!-- Left Column: Text -->
+            <div class="about-col">
+                <h1>Welcome to Tech Baby Quiz</h1>
+                <p> your go-to platform for testing and growing your knowledge in web technologies. We believe that learning should be fun, interactive, and accessible to everyone — whether you are a complete beginner just starting your coding journey or an experienced developer looking to sharpen your skills. Our quizzes are designed to challenge your understanding of HTML, CSS, PHP, SQL, XML and more, giving you instant feedback so you can learn from every answer.</p>
+                <a href="#" class="red-btn">EXPLORE NOW</a>
+            </div>
+
+            <!-- Right Column: Image -->
+            <div class="about-col">
+                <img src="Gemini_Generated_Image_gayycdgayycdgayy.png" alt="Meeting">
+            </div>
+        </div>
+
+        <!-- About Description -->
+        <div class="about-info">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae deleniti dolor amet quisquam architecto officia hic ratione aperiam illum! Ullam, laboriosam eum?</p>
+
+            <!-- Social Icons -->
+        <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+
+    <div class="footer">
+    <p>Developed by Tech Baby</p>
+    </div>
+
+</section>
+</body>
+</html>
